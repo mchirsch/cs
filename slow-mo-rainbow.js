@@ -1,15 +1,28 @@
-// A function that causes our program sleep
-// IE: wait around for a whle before goign to the next line
+// We've used many functions that come built in to Game Lab
+// like rect(), fill(), etc...
 //
-// Parameters
+// Here's a function I wrote that puts your program to sleep
+// for a number of milliseconds (1000 milliseconds = 1 second).
 //
-// milliseconds: the number of milliseconds to sleep for
+// Copy and paste this function at the top of any program in
+// Game Lab, and use it like this:
+//
+// sleep(500);
+//
+
+
+// sleep function
 function sleep(milliseconds) {
   var startTime = Date.now();
   while(Date.now() - startTime < milliseconds) {
     // we'll just do nothing for a while
   } 
 }
+
+
+// Here's the rainbow example we looked at with a 500ms sleep
+// between each line. Copy and paste it into Game Lab and see
+// how it works.
 
 
 // rainbow in slow motion
