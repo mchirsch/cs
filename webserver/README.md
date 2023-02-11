@@ -18,6 +18,13 @@ Add a user:
 sudo sh adduser.sh user pw
 ```
 
+Enagle directory listing in nginx
+```
+/etc/nginx/sites-available/default
+# add to location block
+autoindex on;
+```
+
 # Notes
 - Web root is /var/www/html
 - vshttpd config: /etc/vshttpd.conf

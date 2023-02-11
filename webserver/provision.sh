@@ -4,6 +4,8 @@ apt install -y vsftpd
 
 ufw allow ssh
 ufw allow 'Nginx HTTP'
+ufw allow 20,21,990/tcp
+ufw allow 40000:50000/tcp
 ufw enable
 ufw status
 
