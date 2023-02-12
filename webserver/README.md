@@ -18,6 +18,11 @@ Add a user:
 sudo sh adduser.sh user pw
 ```
 
+Add users from a file:
+```
+sudo xargs --max-lines=1 sh ~/cs/webserver/adduser.sh <users.txt
+```
+
 Enagle directory listing in nginx
 ```
 /etc/nginx/sites-available/default
